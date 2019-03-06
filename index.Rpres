@@ -4,7 +4,7 @@ author: Thomas Ts.
 
 date: 02/03/2019
 
-autosize: true
+
 
 Methods
 ========================================================
