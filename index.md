@@ -1,4 +1,4 @@
-Untitled Slides   
+My Slides
 ========================================================
 
 author: Thomas Ts.
