@@ -28,7 +28,7 @@ How does the wider population describe these states?
 
  ...but...
 
-common Sense, internet and easy access?
+common sense, internet and easy access?
 
 Method
 ========================================================
