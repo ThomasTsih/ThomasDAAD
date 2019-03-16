@@ -18,7 +18,7 @@ Anxiety Disorders are...
 ========================================================
 Validity issues concerning:
 
-Comorbidity (Kring et al., 2010)
+Comorbidity (Kring et al., 2012)
 
 Individual experience and meaningfulness (Cromby et al., 2013)
 
