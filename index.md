@@ -30,7 +30,7 @@ How does the wider population describe these states?
 
 common sense, internet and easy access?
 
-Methods
+Method
 ========================================================
 Indicators of searching what I am observing using specific descriptive labels?
 
