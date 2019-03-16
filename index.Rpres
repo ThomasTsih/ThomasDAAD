@@ -32,15 +32,15 @@ common sense, internet and easy access?
 
 Method
 ========================================================
-Indicators of searching what I am experiencing using specific descriptive labels?
+Indicators of searching what I am observing using specific descriptive labels?
 
-Googling it...
+and then googling it?
 
 Google Trends.
 
 Depression and Anxiety as search terms.
 
-Covary Consistently?
+Covary consistently?
 
 Proposed Analysis
 ========================================================
