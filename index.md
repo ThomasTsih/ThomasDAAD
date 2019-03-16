@@ -32,7 +32,7 @@ common sense, internet and easy access?
 
 Method
 ========================================================
-Indicators of searching what I am observing using specific descriptive labels?
+Indicators of searching what I am observing using specific expert-borrowed descriptive labels?
 
 and then googling it?
 
@@ -41,6 +41,8 @@ Google Trends.
 Depression and Anxiety as search terms.
 
 Covary consistently?
+
+Hypothesis: Depresion and Anxiety covary as search terms on google.
 
 Proposed Analysis
 ========================================================
