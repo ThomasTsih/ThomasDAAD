@@ -50,7 +50,6 @@ References
 ========================================================
 American Psychiatric Association: Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition. Arlington, VA, American Psychiatric Association, 2013.
 
-Cromby, J. (2013). Psychology, mental health and distress. New York: Palgrave Macmillan.
+Cromby, J., Harper, D., & Reavey, P. (2013). Psychology, mental health and distress. Macmillan International Higher Education.
 
-Kring, A. M. (2010). <U+03A8><U+03C5><U+03C7><U+03BF>pa<U+03B8><U+03BF><U+03BB><U+03BF><U+03B3><U+03AF>a. <U+0391><U+03B8><U+03AE><U+03BD>a: Gutenberg.
-
+Kring, A. M., Johnson, S. L., Davison, G. C., & Neale, J.M. (2012). Abnormal Psychology.John Wiley & Sons Inc.
