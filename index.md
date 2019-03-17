@@ -1,6 +1,6 @@
-Research Proposal
+Googling Depression and Anxiety as terms to describe one's experience.
 ========================================================
-
+Thomas Tsichtis
 
 
 Introduction
@@ -24,11 +24,7 @@ Individual experience and meaningfulness (Cromby et al., 2013)
 
 How does the wider population describe these states?
 
- ...Complex...
-
- ...but...
-
-common sense, internet and easy access?
+ Complex but common sense, internet and easy access?
 
 Method
 ========================================================
