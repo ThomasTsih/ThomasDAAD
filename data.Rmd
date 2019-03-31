@@ -1,0 +1,41 @@
+---
+title: 'Data '
+---
+
+```{r cache=FALSE, include=FALSE}
+knitr::read_chunk('data_collection.R')
+```
+
+# Using Library
+```{r Using Library}
+```
+# Finding Terms of Interest
+```{r Finding Terms of Interest}
+```
+# Showing Data
+```{r Showing Data}
+```
+# Getting and showing only interest over time
+```{r Getting and showing only interest over time}
+```
+# Saving Data
+```{r Saving Data}
+```
+
+
+# Analysing Data
+```{r Analysing Data}
+
+```
+
+
+# Framing Data
+```{r Framing Data}
+
+```
+
+# Pearson
+```{r Pearson}
+
+```
+

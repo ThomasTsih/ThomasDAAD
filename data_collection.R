@@ -1,0 +1,34 @@
+## ---- Installing Google Trends package
+install.packages("gtrendsR")
+
+## ----- Using Library
+library("gtrendsR")
+
+## ----- Finding Terms of Interest
+trends<-gtrends(keyword =c("anxiety","depression"), geo=("GR"),time=("2018-01-01 2018-12-31"))
+
+## ----- Showing Data
+trends
+
+## ---- Getting and showing only interest over time
+interest_over_time<-trends$interest_over_time
+interest_over_time
+
+## ---- Saving Data
+write.csv(interest_over_time,file="interest_over_time")
+
+## ---- Analysing Data
+group_a<-interest_over_time$keyword
+group_b<-interest_over_time$hits
+
+## ---- Framing Data 
+df_wide<-data.frame(group_a,group_b)
+anxiety_name<-group_a[1:52]
+anxiety_hits<-group_b[1:52]
+Anxiety<-cbind(anxiety_name,anxiety_hits)
+depression_name<-group_a[53:104]
+depression_hits<-group_b[53:104]
+Depression<-cbind(depression_name,depression_hits)
+
+## ---- Pearson
+cor.test(anxiety_hits,depression_hits)

@@ -46,7 +46,7 @@ Pearson's r for examining the covariance between search terms.
 
 References
 ========================================================
-American Psychiatric Association: Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition. Arlington, VA, American Psychiatric Association, 2013.
+American Psychiatric Association: Diagnostic and Statistical Manual of Mental Disorders,write Fifth Edition. Arlington, VA, American Psychiatric Association, 2013.
 
 Cromby, J., Harper, D., & Reavey, P. (2013). Psychology, mental health and distress. Macmillan International Higher Education.
 
