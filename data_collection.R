@@ -32,3 +32,6 @@ Depression<-cbind(depression_name,depression_hits)
 
 ## ---- Pearson
 cor.test(anxiety_hits,depression_hits)
+
+## ---- Visualising Data
+plot(anxiety_hits,depression_hits,col=30,main = "Correlation between searches on Anxiety and Depression", cex=1.5, cex.main=1, font.main=4, font.lab=2, font.axis=3, xlab="Anxiety", ylab="Depression", pch=20)

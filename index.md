@@ -2,6 +2,12 @@ Googling Depression and Anxiety as terms to describe one's experience.
 ========================================================
 Thomas Tsichtis
 
+Ismini Lymtsiouli
+
+Maria Batzaki
+
+
+
 
 Introduction
 ========================================================
@@ -24,7 +30,7 @@ Individual experience and meaningfulness (Cromby et al., 2013)
 
 How does the wider population describe these states?
 
- Complex but common sense, internet and easy access?
+Complex but common sense, internet and easy access?
 
 Method
 ========================================================
@@ -43,6 +49,11 @@ Hypothesis: Depresion and Anxiety covary as search terms on google.
 Proposed Analysis
 ========================================================
 Pearson's r for examining the covariance between search terms.
+
+Results and Graphics
+========================================================
+
+
 
 References
 ========================================================
