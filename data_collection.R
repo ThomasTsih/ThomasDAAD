@@ -42,10 +42,3 @@ names(result)
 # ---- Visualising Data
 plot(anxiety_hits~depression_hits,col=30,main = "Correlation between searches on Anxiety and Depression", cex=1.5, cex.main=1, font.main=4, font.lab=2, font.axis=3, xlab="Anxiety", ylab="Depression", pch=20)
 
-# ---- Adding Scatterplot as image on slides
-#Saving it and inserting it as an image.
-
-
-
-# ---- Adding Inline Code
-##Using Pearson's r product-moment correlation coefficient we did not find a statistically significant relationship between the two search terms (r= `r Pearson`)
