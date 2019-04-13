@@ -45,7 +45,8 @@ knitr::read_chunk('data_collection.R')
 
 ```
 
-
+## Results 
+Pearson's R product-moment correlation showed a weak unimportant relationship ( _r_= `r round(result$estimate, 2)`, _p_=`r round (result$p.value, 2)`).
 
 
 
