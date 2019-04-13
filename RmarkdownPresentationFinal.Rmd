@@ -1,0 +1,108 @@
+---
+title: "Googling Depression and Anxiety as terms to describe one's experience." 
+author: Thomas Tsichtis, Ismini Lymtsiouli, Maria Batzaki
+bibliography: Style/s.bib 
+csl: Style/apa.csl 
+output: ioslides_presentation 
+widescreen: TRUE
+
+---
+```{r cache=FALSE, include=FALSE}
+knitr::read_chunk('data_collection.R')
+```
+
+```{r include=FALSE}
+
+library("gtrendsR")
+
+trends<-gtrends(keyword =c("anxiety","depression"), geo=("GR"),time=("2018-01-01 2018-12-31"))
+
+trends
+
+
+interest_over_time<-trends$interest_over_time
+interest_over_time
+
+
+write.csv(interest_over_time,file="interest_over_time")
+
+
+group_a<-interest_over_time$keyword
+group_b<-interest_over_time$hits
+
+ 
+df_wide<-data.frame(group_a,group_b)
+anxiety_name<-group_a[1:52]
+anxiety_hits<-group_b[1:52]
+Anxiety<-cbind(anxiety_name,anxiety_hits)
+depression_name<-group_a[53:104]
+depression_hits<-group_b[53:104]
+Depression<-cbind(depression_name,depression_hits)
+
+cor.test(anxiety_hits,depression_hits)
+result <- cor.test(anxiety_hits,depression_hits)
+str(result)
+names(result)
+
+
+plot(anxiety_hits~depression_hits,col=30,main = "Correlation between searches on Anxiety and Depression", cex=1.5, cex.main=1, font.main=4, font.lab=2, font.axis=3, xlab="Anxiety", ylab="Depression", pch=20)
+
+```
+
+
+## Introduction
+
+Psychiatric and Psychological terms describing mental health issues have been a contested topic.
+
+What is the relationship between depression and anxiety?
+
+According to the DSM-5  [@association_diagnostic_2013]:   
+
+Depressive Disorders are...
+
+Anxiety Disorders are...
+
+## 
+
+_Validity issues concerning:_
+
+Comorbidity [@kring_abnormal_2012]
+
+Individual experience and meaningfulness [@cromby_psychology_2013]
+
+How does the wider population describe these states?
+
+Complex but common sense, internet and easy access?
+
+## Method
+
+Indicators of searching what I am observing using specific expert-borrowed descriptive labels?
+
+and then googling it?
+
+Google Trends.
+
+Depression and Anxiety as search terms.
+
+Covary consistently?
+
+_Hypothesis: Depresion and Anxiety covary as search terms on google._
+
+## Results and Graphics
+Pearson's R product-moment correlation showed a weak unimportant relationship ( _r_= `r round(result$estimate, 2)`, _p_=`r round (result$p.value, 2)`).
+
+```{r echo=FALSE}
+plot(anxiety_hits~depression_hits,col=30,main = "Correlation between searches on Anxiety and Depression", cex=1.5, cex.main=1, font.main=4, font.lab=2, font.axis=3, xlab="Anxiety", ylab="Depression", pch=20)
+```
+
+
+
+## Discussion
+
+Assumptions and simplicity.
+
+Searching google is probably more complex.
+
+Not a simple a-theoretical, common-sensical relationship.
+
+## Referecnces
