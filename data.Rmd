@@ -1,5 +1,10 @@
 ---
 title: "Data Collection and Analysis Notebook"
+author: "Thomas Tsichtis, Ismini Lymtsiouli, Maria Batzaki"
+csl: Style/apa.csl
+nocite: |
+  @association_diagnostic_2013, @kring_abnormal_2012, @cromby_psychology_2013
+bibliography: Style/s.bib
 ---
 
 ```{r cache=FALSE, include=FALSE}
@@ -45,8 +50,8 @@ knitr::read_chunk('data_collection.R')
 
 ```
 
-## Results 
+# Results 
 Pearson's R product-moment correlation showed a weak unimportant relationship ( _r_= `r round(result$estimate, 2)`, _p_=`r round (result$p.value, 2)`).
 
 
-
+# References
