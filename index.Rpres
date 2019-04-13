@@ -46,12 +46,12 @@ Covary consistently?
 
 Hypothesis: Depresion and Anxiety covary as search terms on google.
 
-Proposed Analysis
+Analysis, Results and Graphics
 ========================================================
-Pearson's r for examining the covariance between search terms.
+Pearson's R product-moment correlation.
+No significant findings 
 
-Results and Graphics
-========================================================
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Data '
+title: "Data Collection and Analysis Notebook"
 ---
 
 ```{r cache=FALSE, include=FALSE}
@@ -12,6 +12,7 @@ knitr::read_chunk('data_collection.R')
 # Finding Terms of Interest
 ```{r Finding Terms of Interest}
 ```
+
 # Showing Data
 ```{r Showing Data}
 ```
@@ -34,7 +35,7 @@ knitr::read_chunk('data_collection.R')
 
 ```
 
-# Pearson
+# Pearson, structures, names.
 ```{r Pearson}
 
 ```
@@ -43,6 +44,7 @@ knitr::read_chunk('data_collection.R')
 ```{r Visualising Data, echo=FALSE}
 
 ```
+
 
 
 

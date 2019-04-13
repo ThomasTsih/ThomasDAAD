@@ -1,3 +1,5 @@
+#Data Collection and Analysis Script
+
 ## ---- Installing Google Trends package
 install.packages("gtrendsR")
 
@@ -30,8 +32,20 @@ depression_name<-group_a[53:104]
 depression_hits<-group_b[53:104]
 Depression<-cbind(depression_name,depression_hits)
 
-## ---- Pearson
+## ---- Pearson, structures, names.
 cor.test(anxiety_hits,depression_hits)
+result <- cor.test(anxiety_hits,depression_hits)
+str(result)
+names(result)
 
-## ---- Visualising Data
-plot(anxiety_hits,depression_hits,col=30,main = "Correlation between searches on Anxiety and Depression", cex=1.5, cex.main=1, font.main=4, font.lab=2, font.axis=3, xlab="Anxiety", ylab="Depression", pch=20)
+
+# ---- Visualising Data
+plot(anxiety_hits~depression_hits,col=30,main = "Correlation between searches on Anxiety and Depression", cex=1.5, cex.main=1, font.main=4, font.lab=2, font.axis=3, xlab="Anxiety", ylab="Depression", pch=20)
+
+# ---- Adding Scatterplot as image on slides
+#Saving it and inserting it as an image.
+
+
+
+# ---- Adding Inline Code
+##Using Pearson's r product-moment correlation coefficient we did not find a statistically significant relationship between the two search terms (r= `r Pearson`)
